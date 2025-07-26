@@ -1,0 +1,8 @@
+rtspAddress: :8554
+protocols: [tcp,udp]
+api: yes
+apiAddress: :9997
+
+paths:
+  cam:
+    source: publisher
